@@ -1,0 +1,17 @@
+.parent{
+   display:flex;
+   flex-direction:row;
+   justify-content: center;
+}
+.childOne{
+  width:30%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+}
+.childTwo{
+  width:70%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+}
