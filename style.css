@@ -1,16 +1,18 @@
 .parent{
    display:flex;
    flex-direction:row;
-   justify-content: center;
+   justify-content: flex-start;
 }
 .childOne{
   width:30%;
   padding:2%;
   border:1px solid #ddd;
+  box-shadow: 5px 5px 5px #ddd;
   margin:2%;
+  background-color:lightpink;
 }
 .childTwo{
-  width:70%;
+  width:50%;
   padding:2%;
   border:1px solid #ddd;
   margin:2%;
@@ -21,5 +23,74 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+}
+/*for small screen mobiles*/
+@media only screen and (min-width:360px) and (max-width:480px){
+  .parent{
+     display:flex;
+     flex-direction:column;
+     justify-content: flex-start;
+  }
+  .childOne{
+    width:100%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    background-color:lightpink;
+  }
+  .childTwo{
+    width:100%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+  }
+h2{
+  text-align: center;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+.parent{
+   display:flex;
+   flex-direction:row;
+   justify-content: flex-start;
+}
+.childOne{
+  width:50%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  background-color:lightpink;
+}
+.childTwo{
+  width:50%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+}
+h2{
+  text-align: center;
+}
+}
+@media only screen and (min-width:781px) and (max-width:1024px){
+.parent{
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+}
+.childOne{
+  width:50%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  background-color:lightpink;
+}
+.childTwo{
+  width:50%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+}
+h2{
+  text-align: center;
+}
 }
