@@ -3,5 +3,43 @@
     "name":"supriya",
     "email":"supriyaparupalli98@gmail.com",
     "label":"student"
-  }
+  },
+"career":{
+  "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+{
+ "degree":"B-Tech(Computer Science and Technology)",
+ "institute":"PVP Siddartha",
+ "data":["2015-19","92%"]
+},
+{
+  "degree":"Intermediate(M.P.C)",
+  "institute":"Sree Chaitanya Junior College",
+  "data":["2014-16","94%"]
+},
+{
+  "degree":"S.S.C",
+  "institute":"Ravindra Bharathi Public school",
+  "data":["2014","97%"]
+}
+],
+"skills":[
+  {
+    "title":"Languages",
+    "content":["C","Python","Java","C#","C++","PHP","R"]
+  },
+  {
+    "title":"DataBase",
+    "content":["SQL","MongoDB"]
+  },
+ {
+   "title":"Web Technologies",
+   "content":["HTML","PHP","javascript","CSS"]
+ },
+ {
+   "title":"Frameworks",
+   "content":["CodeIgniter","Django"]
+ }
+]
 }

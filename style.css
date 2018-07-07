@@ -10,12 +10,15 @@
   box-shadow: 5px 5px 5px #ddd;
   margin:2%;
   background-color:lightpink;
+  border-radius: 25px;
 }
 .childTwo{
   width:50%;
   padding:2%;
   border:1px solid #ddd;
   margin:2%;
+  border-radius: 25px;
+  background-color: skyblue;
 }
 img{
   width:40%;
